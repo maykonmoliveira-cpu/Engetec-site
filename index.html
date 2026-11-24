@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ENGETEC — assistência técnica em equipamentos médico-hospitalares, com foco em autoclaves, esterilizadores e termodesinfectoras.">
+  <meta name="theme-color" content="#082d57">
+  <title>ENGETEC | Assistência Técnica Hospitalar</title>
+  <link rel="icon" type="image/png" href="assets/engetec-logo.svg">
+  <style>
+    :root{--navy:#082d57;--blue:#087fc2;--cyan:#11b8e8;--ink:#18324b;--muted:#607386;--pale:#eef7fc;--line:#dceaf2}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#fff}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(10px);z-index:10;border-bottom:1px solid #e5edf3}.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:10px 0}.brand img{width:205px;height:auto;display:block}.links{display:flex;gap:22px;align-items:center;font-size:14px;font-weight:700;color:var(--navy)}
+    .btn{display:inline-block;background:linear-gradient(100deg,var(--blue),var(--cyan));color:white;padding:13px 20px;border-radius:8px;font-weight:700;box-shadow:0 8px 20px #087fc233;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px);box-shadow:0 11px 24px #087fc244}
+    .hero{background:radial-gradient(circle at 85% 20%,#d9f4ff 0,transparent 32%),linear-gradient(120deg,#f5fbff,#fff 60%);padding:76px 0 68px}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}.eyebrow{color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:12px}h1{font-size:clamp(34px,5vw,56px);line-height:1.08;color:var(--navy);margin:14px 0 18px;letter-spacing:-1.5px}h1 span{color:var(--blue)}.lead{font-size:18px;color:#526b80;max-width:650px;margin-bottom:28px}.hero-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px;box-shadow:0 20px 55px #0a3b6012}.hero-card h2{font-size:22px;margin:0 0 8px}.hero-card p{color:var(--muted);margin:0 0 18px}.specialty{display:flex;align-items:center;gap:12px;padding:13px 0;border-top:1px solid #e8f0f5;font-weight:700;color:var(--navy)}.specialty i{font-style:normal;display:grid;place-items:center;width:38px;height:38px;border-radius:10px;background:var(--pale);color:var(--blue);font-size:19px}.trust{display:flex;gap:20px;flex-wrap:wrap;margin-top:28px;color:#466178;font-size:13px;font-weight:700}.trust span:before{content:"✓";color:#0aa2d6;font-weight:900;margin-right:7px}
+    section{padding:72px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 38px}h2{font-size:clamp(27px,3vw,38px);line-height:1.15;color:var(--navy);margin:10px 0 14px}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid #e1edf4;border-radius:14px;padding:25px;background:#fff;box-shadow:0 10px 28px #0b41600a}.ico{width:48px;height:48px;border-radius:12px;background:var(--pale);display:grid;place-items:center;color:var(--blue);font-size:24px;margin-bottom:16px}h3{color:var(--navy);margin:0 0 9px;font-size:19px}.card p{color:var(--muted);font-size:14px;margin:0}.band{background:var(--navy);color:white}.band h2{color:white}.band p{color:#d5e5f0}.two{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:center}.list{padding:0;list-style:none}.list li{padding:9px 0;border-bottom:1px solid #ffffff25}.list li:before{content:"✓";color:#5dd6ff;font-weight:bold;margin-right:10px}.process{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{padding:20px;background:var(--pale);border-radius:12px}.step b{display:block;color:var(--blue);font-size:13px;margin-bottom:8px}
+    .contact{background:linear-gradient(120deg,#edf8fe,#f8fcff)}.contact-box{background:white;border:1px solid #dcecf5;border-radius:18px;padding:34px;display:flex;justify-content:space-between;gap:28px;align-items:center}.contact-box p{color:var(--muted);margin:8px 0 0}.contact-actions{display:flex;flex-direction:column;gap:12px;min-width:230px}.contact-link{font-weight:700;color:var(--navy);font-size:14px}.contact-link span{color:var(--blue)}footer{background:#061f3d;color:#d5e5f0;padding:26px 0;font-size:13px}footer .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    @media(max-width:800px){.links a:not(.btn){display:none}.hero-grid,.two{grid-template-columns:1fr}.hero{padding:52px 0}.hero-card{max-width:560px}.cards{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.contact-box{display:block}.contact-actions{margin-top:22px}}
+    @media(max-width:520px){.cards{grid-template-columns:1fr}.brand img{width:155px}.nav{gap:10px}.btn{padding:11px 14px;font-size:13px}.process{grid-template-columns:1fr 1fr}.contact-box{padding:24px}.hero-card{padding:22px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#inicio" aria-label="ENGETEC início"><img src="assets/engetec-logo.svg" alt="ENGETEC — Assistência técnica em equipamentos médico-hospitalares"></a>
+  <nav class="links" aria-label="Navegação principal"><a href="#servicos">Serviços</a><a href="#equipamentos">Equipamentos</a><a href="#empresa">A ENGETEC</a><a href="#contato" class="btn">Solicitar atendimento</a></nav>
+</div></header>
+<main>
+  <section class="hero" id="inicio"><div class="wrap hero-grid"><div>
+    <div class="eyebrow">Assistência técnica especializada</div><h1>Confiabilidade para seus processos de <span>esterilização.</span></h1>
+    <p class="lead">Suporte técnico para equipamentos de esterilização e termodesinfecção, com foco na segurança, no desempenho e na continuidade da rotina da sua instituição.</p>
+    <a class="btn" href="#contato">Fale com a ENGETEC</a><div class="trust"><span>Manutenção técnica</span><span>Atendimento especializado</span><span>Foco em segurança</span></div>
+  </div><aside class="hero-card"><div class="eyebrow">Especialidade ENGETEC</div><h2>Suporte para equipamentos essenciais</h2><p>Atendimento técnico direcionado a serviços de saúde e centrais de material e esterilização.</p>
+    <div class="specialty"><i>♨</i> Autoclaves e esterilizadores a vapor</div><div class="specialty"><i>⌁</i> Termodesinfectoras</div><div class="specialty"><i>⚙</i> Sensores, controles e instrumentação</div>
+  </aside></div></section>
+  <section id="servicos"><div class="wrap"><div class="section-head"><div class="eyebrow">Como podemos ajudar</div><h2>Serviços para manter seus equipamentos em operação</h2><p>Atendimento técnico orientado às necessidades da central de material e esterilização e de serviços de saúde.</p></div>
+    <div class="cards"><article class="card"><div class="ico">⚙</div><h3>Manutenção corretiva</h3><p>Diagnóstico técnico e intervenção para investigar falhas e recuperar o funcionamento do equipamento.</p></article>
+    <article class="card"><div class="ico">🛠</div><h3>Manutenção preventiva</h3><p>Inspeções e cuidados programados para reduzir paradas inesperadas e preservar o desempenho.</p></article>
+    <article class="card"><div class="ico">♨</div><h3>Instalação e configuração</h3><p>Apoio técnico na instalação, configuração e verificação inicial, conforme o equipamento e o fabricante.</p></article>
+    <article class="card"><div class="ico">⌁</div><h3>Diagnóstico de falhas</h3><p>Análise de alarmes, sensores, controles, ciclos e componentes relacionados ao funcionamento.</p></article>
+    <article class="card"><div class="ico">▣</div><h3>Orientação operacional</h3><p>Orientações técnicas para uso adequado, cuidados de rotina e identificação de sinais de falha.</p></article>
+    <article class="card"><div class="ico">✓</div><h3>Suporte técnico</h3><p>Atendimento para esclarecer dúvidas e direcionar a melhor solução para cada necessidade.</p></article></div>
+  </div></section>
+  <section class="band" id="equipamentos"><div class="wrap two"><div><div class="eyebrow" style="color:#62d8ff">Especialidade ENGETEC</div><h2>Equipamentos de esterilização e termodesinfecção</h2><p>Atuação direcionada a equipamentos essenciais para o processamento de produtos para saúde.</p></div>
+    <div><ul class="list"><li>Autoclaves e esterilizadores a vapor</li><li>Termodesinfectoras e lavadoras termodesinfectoras</li><li>Sistemas de geração e tratamento de água associados</li><li>Componentes de controle, sensores e instrumentação</li><li>Periféricos e acessórios relacionados aos equipamentos</li></ul></div></div></section>
+  <section id="empresa"><div class="wrap"><div class="section-head"><div class="eyebrow">Nossa forma de trabalhar</div><h2>Técnica, transparência e compromisso</h2><p>A ENGETEC tem como proposta apoiar instituições de saúde na conservação e disponibilidade de equipamentos críticos para seus processos.</p></div>
+    <div class="process"><div class="step"><b>01 · CONTATO</b>Entendemos o equipamento e a necessidade apresentada.</div><div class="step"><b>02 · AVALIAÇÃO</b>Realizamos o levantamento técnico e identificamos possíveis causas.</div><div class="step"><b>03 · PROPOSTA</b>Apresentamos o escopo recomendado para aprovação.</div><div class="step"><b>04 · ATENDIMENTO</b>Executamos o serviço acordado e registramos as orientações pertinentes.</div></div></div></section>
+  <section class="contact" id="contato"><div class="wrap contact-box"><div><div class="eyebrow">Vamos conversar</div><h2>Precisa de assistência no seu equipamento?</h2><p>Entre em contato para solicitar atendimento ou esclarecer sua necessidade técnica.</p></div>
+    <div class="contact-actions"><a class="btn" href="https://wa.me/5547992394551?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20atendimento%20t%C3%A9cnico%20da%20ENGETEC." target="_blank" rel="noopener">Solicitar pelo WhatsApp</a><a class="contact-link" href="mailto:engetechospitalar@gmail.com">E-mail: <span>engetechospitalar@gmail.com</span></a><a class="contact-link" href="tel:+5547992394551">Telefone: <span>(47) 99239-4551</span></a></div>
+  </div></section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 ENGETEC — Assistência Técnica em Equipamentos Médico-Hospitalares</span><span>Tecnologia a serviço da vida</span></div></footer>
+</body></html>
